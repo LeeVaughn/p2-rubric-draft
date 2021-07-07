@@ -1,4 +1,3 @@
-<!--TODO to do below -->
 # Grading Rubric
 
 ## Overall Grading Template Boilerplate
@@ -31,15 +30,15 @@ Highest grade: **exceeds expectations**
 
 ```
 Needs work if any of the following are true:
-* Project uses jQuery or some other library, plugin or borrowed code snippet.
-* Any JavaScript is added directly to the HTML file instead of linked from external files. 
-* Any markup for the student list and pagination buttons is added directly in the HTML file instead of being created dynamically with JavaScript.
+* Project uses jQuery, some other library, or one or more code snippets or plugins.	
+* Uses inline JavaScript instead of keeping all JavaScript in external JS files.
+* Components of the HTML markup for the student list or pagination buttons are added directly in the HTML instead of being created dynamically with JavaScript.
 ```
 
 ##### Need Work Feedback Template
 
 ```
-Nice work so far, but it looks like you've added something to your project that you weren't supposed to add.
+It looks like you utilized snippets, plugins, or libraries in your project or there's a problem with how you're adding the student data and pagination buttons.
 ```
 
 #### Meets Expectations
@@ -48,17 +47,17 @@ Nice work so far, but it looks like you've added something to your project that 
 
 ```
 Meets expectations if all of the following are true:
-* Project doesn't use jQuery or some other library, plugin or borrowed code snippet.
-* All JavaScript is linked from external files.
-* All markup for the student list and pagination buttons is created dynamically with JavaScript.
+* Project contains only plain “vanilla” JavaScript and doesn't rely on jQuery, some other library, or any code snippets or plugins.
+* No inline JavaScript is used. All JavaScript is linked from external files.
+* Uses external JavaScript to append markup for the student list and pagination buttons so that none of the markup is added directly into the HTML.
 ``` 
   
 ##### Meets Expectations Template
 
 ```
-Nice work writing all your own vanilla JavaScript and linking it to the HTML from an external JavaScript file.  Bravo!
+Excellent work using your “vanilla” JavaScript skills and external JavaScript files to build this project!
 ```
-
+<!--TODO to do below -->
 #### Exceeds Expectations
 
 ##### Exceeds Expectations Criteria
