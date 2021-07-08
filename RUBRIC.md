@@ -57,23 +57,20 @@ Meets expectations if all of the following are true:
 ```
 Excellent work using your “vanilla” JavaScript skills and external JavaScript files to build this project!
 ```
-<!--TODO to do below -->
+
 #### Exceeds Expectations
 
 ##### Exceeds Expectations Criteria
 
 ```
-Exceeds expectations if meets expectations plus the following are true:
+Exceeds expectations if meets expectations plus the following is true:	
 * Uses JavaScript to append HTML for a search bar.
-* Search bar matches layout in the mockup file, `examples/example-exceeds.png`, or has custom styling.
 ```
 
 ##### Exceeds Expectations Template
 
 ```
-Yes! A search bar -- nicely done.
-
-And nice work writing all your own vanilla JavaScript and linking it to the HTML from an external JavaScript file.  Bravo!
+Excellent work using your “vanilla” JavaScript skills and external JavaScript files to build this project, including adding the search feature!
 ``` 
 
 ##### Notes
@@ -91,7 +88,7 @@ And nice work writing all your own vanilla JavaScript and linking it to the HTML
 ```
 
 ---
-
+<!--TODO to do below -->
 ### Pagination Buttons
 
 Highest grade: **Exceeds expectations**
@@ -102,8 +99,7 @@ Highest grade: **Exceeds expectations**
 
 ```
 Needs work if any of the following are true:
-* Incorrect number or numbering of pagination buttons.
-* Pagination buttons don't show the correct page.
+* An incorrect number of pagination buttons are created or they do not have the proper page numbers.
 * Clicking between or outside of pagination buttons triggers the click event.
 * The `active` class is not added to the first pagination button when the application loads.
 * The `active` class name is not added to the most recently clicked pagination button, or is present on more than one button at any given time.
@@ -112,7 +108,7 @@ Needs work if any of the following are true:
 ##### Need Work Feedback Template
 
 ```
-There appears to be a problem with your pagination buttons.
+Your pagination buttons are not working properly or are hard-coded into the HTML.
 ```
 
 #### Meets Expectations
@@ -121,17 +117,16 @@ There appears to be a problem with your pagination buttons.
 
 ```
 Meets expectations if all of the following are true:
-* Pagination buttons display the correct page.
+* The correct number of pagination buttons are created and they have the proper page numbers. For example, if there are 42 students there should be five pagination buttons and they should be numbered 1 through 5.
 * Clicking between or outside of pagination buttons does not trigger the click event.
 * The `active` class is added to the first pagination button when the application loads.
-* The `active` class name is added to the most recently clicked pagination button, and is never present on more than one button at any given time.
-* Project has the correct number of pagination buttons and they are numbered correctly. For example, if there are 42 students there should be 5 pagination buttons, numbering 1 through 5.
+* When a pagination button is clicked, the `active` class is added to the clicked pagination button and removed from any other pagination buttons.
 ```
   
 ##### Meets Expectations Template
 
 ```
-Awesome!  Your pagination button number correctly and work well!  Applause!!
+Great job on creating the correct number of pagination buttons and for properly applying the `active` class to them as needed.
 ```
 
 #### Exceeds Expectations
