@@ -217,18 +217,14 @@ Highest grade: **Meets expectations**
 
 ```
 Needs work if any of the following are true:
-* No new comments have been added to the `js/script.js` file.
-* Uncaught errors appear in the Chrome DevTools console while using the Pagination app in Chrome.
+* There are no comments describing how the code and functions work.
+* Uncaught errors appear in the Chrome DevTools console.
 ```
 
 ##### Need Work Feedback Template
 
 ```
-Looks like there's a problem with your code comments or errors showing up in the console.
-
-Remember, code comments are important for helping others understand how your code functions.
-
-And resolving any and all errors before submitting your work is a hallmark of a great developer
+Looks like your code is either missing comments or is causing errors to appear in the DevTools console.
 ```
 
 #### Meets Expectations
@@ -237,14 +233,18 @@ And resolving any and all errors before submitting your work is a hallmark of a 
 
 ```
 Meets expectations if all of the following are true:
-* Any new comments have been added to the `js/script.js` file.
-* No uncaught errors appear in the Chrome DevTools console while using the Pagination app in Chrome.
+* Code comments have been added explaining how the functions work.
+* No uncaught errors appear in the Chrome DevTools console.
 ```
 
 ##### Meets Expectations Template
 
 ```
-No errors in the console, and your code comments help demonstrate at a glance how your code works and what it does. Your fellow developers and your future self will thank you for making a habit of adding smart code comments to your projects. Keep up the great work!
+Your code comments demonstrate at a glance how your code works and what it does. Your fellow developers and your future self will thank you for making a habit of adding smart code comments to your projects.
+
+You have also done a nice job of making sure there aren't any unhandled errors in your app.
+
+Keep up the great work!
 ```
 
 #### Exceeds Expectations
