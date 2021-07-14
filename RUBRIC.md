@@ -161,13 +161,13 @@ Highest grade: **Exceeds expectations**
 ```
 Needs work if any of the following are true:
 * The first nine students aren’t shown when the page loads or more than nine students show on the page.
-* Clicked pagination buttons fail to display the correct students or the correct number of students.
+* Nothing happens when the buttons are clicked or the wrong students/incorrect number of students are displayed when clicked.
 ```
 
 ##### Need Work Feedback Template
 
 ```
-Looks like your paging is off. The pagination buttons are not properly displaying the student data.
+Looks like your pagination buttons are not properly displaying the student data.
 ```
 
 #### Meets Expectations
@@ -176,14 +176,14 @@ Looks like your paging is off. The pagination buttons are not properly displayin
 
 ```
 Meets expectations if all of the following are true:
-* The first 9 students from the array of objects in the `js/data.js` file are displayed when the page first loads.
-* Clicking on a pagination button displays the correct number of students. For example, clicking on the  “1” button should show students 1 to 9, clicking the “2” should show 10 to 18, etc. 
+* The first nine students are displayed when the page loads.
+* Clicking on a pagination button displays the correct nine students. For example, clicking on the  “1” button should show students one to nine, clicking the “2” should show students 10 to 18, etc.
 ```
   
 ##### Meets Expectations Template
 
 ```
-Awesome -- you're displaying the correct number of students per page and the students shown properly reflect the button clicked.
+The pagination works great and displays the correct nine students depending on which button is clicked. Nicely done!
 ``` 
 
 #### Exceeds Expectations
@@ -192,14 +192,13 @@ Awesome -- you're displaying the correct number of students per page and the stu
 
 ```
 Exceeds expectations if meets expectations plus the following are true:
-* When a search yields 0 results, a "No results" message is displayed on the page, and is removed or hidden when students are displayed on the page again.
-* After a search, pages only display students that match the search criteria and pages display the correct number of students. For example, if 22 search results are returned, the third and final page should only display four students.
+* When a search yields no matches a message is displayed on the page informing the user that no results have been found.
 ```
 
 ##### Exceeds Expectations Template
 
 ```
-Awesome!  Your project displays the correct number of students per page and the search provides feedback when no students were found to match the search criteria. Nicely done.
+Your project displays the correct number of students per page and the search provides feedback when no students were found that match the search criteria. Nicely done!
 ```
 
 ##### Notes
