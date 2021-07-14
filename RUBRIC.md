@@ -88,7 +88,7 @@ Excellent work using your “vanilla” JavaScript skills and external JavaScrip
 ```
 
 ---
-<!--TODO to do below -->
+
 ### Pagination Buttons
 
 Highest grade: **Exceeds expectations**
@@ -102,7 +102,7 @@ Needs work if any of the following are true:
 * An incorrect number of pagination buttons are created or they do not have the proper page numbers.
 * Clicking between or outside of pagination buttons triggers the click event.
 * The `active` class is not added to the first pagination button when the application loads.
-* The `active` class name is not added to the most recently clicked pagination button, or is present on more than one button at any given time.
+* When a pagination button is clicked, the `active` class is not added to the clicked pagination button or is not removed from any other pagination buttons.
 ```
 
 ##### Need Work Feedback Template
@@ -134,16 +134,14 @@ Great job on creating the correct number of pagination buttons and for properly 
 ##### Exceeds Expectations Criteria
 
 ```
-Exceeds expectations if meets expectations plus the following are true:
-* The number of pages and pagination buttons change based on how many search results are returned. For example, if 9 or fewer results are returned, 0 or 1 pagination buttons are displayed, if 22 search results are returned, 3 pagination buttons are displayed.
+Exceeds expectations if meets expectations plus the following is true:
+* The number of pagination buttons changes based on how many search results are returned. For example, if nine or fewer results are returned, zero or one pagination buttons are displayed. If 22 search results are returned, three pagination buttons are displayed.
 ```
 
 ##### Exceeds Expectations Template
 
 ```
-Your pagination button number correctly and work well!  And you've gone above and beyond by paginating the search results. This is awesome and not an easy task, so be proud! 
-
-Applause!!
+Excellent! You've gone above and beyond and paginated the search results. This is awesome and not an easy task, so be proud!
 ```
 
 ##### Notes
@@ -151,7 +149,7 @@ Applause!!
 None
 
 ---
-
+<!--TODO to do below -->
 ### Paging
 
 Highest grade: **Exceeds expectations**
@@ -162,7 +160,7 @@ Highest grade: **Exceeds expectations**
 
 ```
 Needs work if any of the following are true:
-* The first 9 students from the array of objects in the `js/data.js` file are not displayed when the page first loads.
+* The first nine students aren’t shown when the page loads or more than nine students show on the page.
 * Clicked pagination buttons fail to display the correct students or the correct number of students.
 ```
 
